@@ -30,6 +30,10 @@
     <Folder Include="Models\ViewComponents\" />
     <Folder Include="Service\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Repositories\" />
+    <Folder Include="Domain\Repositories\Abstract\" />
+    <Folder Include="Domain\Repositories\EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\" />
@@ -49,16 +53,28 @@
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
     <None Remove="BundlerMinifier.Core" />
     <None Remove="Views\Home\" />
+    <None Remove="Domain\Entities\" />
+    <None Remove="Domain\Repositories\" />
+    <None Remove="Domain\Repositories\Abstract\" />
+    <None Remove="Domain\Repositories\EntityFramework\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite.Core" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="BundlerMinifier.Core" Version="3.2.449" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.0" />
   </ItemGroup>
 </Project>
