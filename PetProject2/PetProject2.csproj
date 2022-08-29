@@ -36,6 +36,8 @@
     <Folder Include="Domain\Repositories\EntityFramework\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Areas\Admin\Views\Home\" />
+    <Folder Include="Areas\Admin\Views\TextFields\" />
+    <Folder Include="Areas\Admin\Views\ServiceItems\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\" />
@@ -64,6 +66,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Views\Account\" />
     <None Remove="Areas\Admin\Views\Home\" />
+    <None Remove="Areas\Admin\Views\TextFields\" />
+    <None Remove="Areas\Admin\Views\ServiceItems\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
