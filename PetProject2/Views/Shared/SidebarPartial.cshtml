@@ -1,11 +1,5 @@
-﻿{
-  "ConnectionStrings": {
-    "DefaultConnection": "DataSource=app.db"
-  },
-  "Logging": {
-    "LogLevel": {
-      "Default": "Warning"
-    }
-  },
-  "AllowedHosts": "*"
-}
+﻿<div class="col-4 col-12-medium">
+    <cache>
+        @(await Component.InvokeAsync<SidebarViewComponent>())
+    </cache>
+</div>

@@ -38,6 +38,9 @@
     <Folder Include="Areas\Admin\Views\Home\" />
     <Folder Include="Areas\Admin\Views\TextFields\" />
     <Folder Include="Areas\Admin\Views\ServiceItems\" />
+    <Folder Include="Views\Services\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Sidebar\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\" />
@@ -68,6 +71,9 @@
     <None Remove="Areas\Admin\Views\Home\" />
     <None Remove="Areas\Admin\Views\TextFields\" />
     <None Remove="Areas\Admin\Views\ServiceItems\" />
+    <None Remove="Views\Services\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Sidebar\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
